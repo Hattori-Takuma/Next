@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-
+import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -10,7 +10,10 @@ export default function Home() {
     <>
       <section className="h-screen w-4/5 max-w-5xl mx-auto flex items-center justify-center flex-col">
       <h1 className="mb-4 text-green-500 text-3xl">サンプル</h1>
-      <p className="mb-2 text-center">sample text</p>
+        <p className="mb-2 text-center">sample text</p>
+        <Link href="/login">
+        こちら
+      </Link>
       <button className="btn-blue">Let's Start!!</button>
       </section>
     </>
