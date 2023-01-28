@@ -13,7 +13,7 @@ const handler = (path:string) => {
   }
 
 
-export default function login() {
+const Login = ()  =>{
   return (
     <>
       
@@ -34,3 +34,4 @@ export default function login() {
     </>
   )
 }
+  export default Login;

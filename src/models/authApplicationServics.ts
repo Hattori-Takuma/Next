@@ -15,6 +15,7 @@ export const googleLogin = async () => {
         console.log(user.displayName)
         console.log(user.email)
         console.log(user.uid)
+        console.log(user)
         resolve(user)
         // ...
       }).catch((error) => {
