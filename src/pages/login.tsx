@@ -13,7 +13,8 @@ const handler = (path:string) => {
   }
 
 
-const Login = ()  =>{
+
+const login = ()  =>{
   return (
     <>
       
@@ -34,4 +35,4 @@ const Login = ()  =>{
     </>
   )
 }
-  export default Login;
+  export default login;

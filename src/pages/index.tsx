@@ -1,6 +1,8 @@
 import Link from 'next/link'
+import { useLoginCheck } from '../hooks/useLoginCheck';
 
 export default function Home() {
+    const isLogin = useLoginCheck();
   return (
     <>
       <section className="h-screen w-4/5 max-w-5xl mx-auto flex items-center justify-center flex-col">

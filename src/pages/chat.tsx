@@ -6,7 +6,8 @@ import { useAppSelector } from '../hooks/useRTK';
 
 
 export default function chat() {
-    const user = useAppSelector(selectUser);
+  const user = useAppSelector(selectUser);
+
 
   
   return (
@@ -23,7 +24,7 @@ export default function chat() {
        <div >
          {/* <Avatar alt="User" src={user.photoUrl} /> */}
          {/* <div >{user.displayName}</div> */}
-           <div>{user.email}</div>
+           <div>email:{user.email}</div>
       </div>
 
 
