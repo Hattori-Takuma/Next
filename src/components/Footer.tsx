@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="text-center bg-gray-900 text-white w-screen block">
+    <footer className="text-center text-black w-screen block">
       <div className="container px-6 pt-6 flex flex-col items-center max-w-2xl w-full mx-auto">
-        <div className="flex justify-center mb-6 text-white">
+        <div className="flex justify-center mb-6 text-black">
           {/* Twitter */}
           {/* {siteConfig.twitterUrl && (
             <a href={siteConfig.twitterUrl}>
